@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" >
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="Portafolio.css">
+</head>
+<body>
+    <!--sepcion inicio-->
+    <section id="inicio">
+
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Vasa</h1>
+                    <nav id="nav">
+                    <ul id="links">
+                        <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                        <li><a href="#sobremi" onclick="seleccionar(this)">Sobre Mi</a></li>
+                        <li><a href="#misservicios" onclick="seleccionar(this)">Mis Servicios</a></li>
+                        <li><a href="#skills" onclick="seleccionar(this)">Skills</a></li>
+                        <li><a href="#portafolio" onclick="seleccionar(this)">Portafolio</a></li>
+                        <li><a href="#contactos" onclick="seleccionar(this)">Contactos</a></li>
+                    </ul>
+                    </nav>
+                    <!--sepcion iconos del menu responsive-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    
+                    <!--sepcion iconos de redes sociales-->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenidos">Bienvenidos</p>
+                <h2>Hola 👋 Soy victor un frontend dedicado a la creacion de productos digitales</h2>
+                <p class="descripcion">Desarrollador web frontend.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vel commodi fugiat necessitatibus saepe earum eligendi officiis tenetur inventore voluptatem incidunt ullam unde labore dignissimos ad dolor, sed ab accusamus.</p>
+                <a href="#portafolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!--section sobre mi experiencia-->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/alfonso.jpg" alt="imagen">
+        </div>
+
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola 👋 Soy victor un frontend dedicado a la creacion de productos digitales, y este es mi primer proyecto. Espero que les guste.</h2>
+
+            <h3>Desarrollador web frontend</h3>
+
+            <p>Me encanta centrarme en los detalles de las experiencias de nuevos produtos con una implementacion de codigo perfecto. pero los grandes productos no comienzan ahi, comienzan con una solida colaboracion con los compañeros de equipo e investigacion, ingenieria y productos para comprender los problemas y las circunstancia de los clientes.</p>
+            <a href="#">Descargar cv</a>
+        </div>
+    </section>
+
+    <!--section Mis servicios-->
+    <section id="misservicios">
+        <h3 class="titulo-seccion">Mis Servicios</h3>
+        <div class="fila">
+            <div class="servicios">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Desarrollador web</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Frontend</li>
+                <li>Diseño</li>
+                <li>Maquetador</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugit assumenda mollitia corrupti alias aliquam fuga tempora eaque esse, deserunt neque culpa quidem fugiat magni atque modi ipsam nemo veritatis.</p>
+        </div>
+
+            <div class="servicios">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Desarrollador web</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Frontend</li>
+                <li>Diseño</li>
+                <li>Maquetador</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugit assumenda mollitia corrupti alias aliquam fuga tempora eaque esse, deserunt neque culpa quidem fugiat magni atque modi ipsam nemo veritatis.</p>
+        </div>
+
+            <div class="servicios">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Desarrollador web</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Frontend</li>
+                <li>Diseño</li>
+                <li>Maquetador</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugit assumenda mollitia corrupti alias aliquam fuga tempora eaque esse, deserunt neque culpa quidem fugiat magni atque modi ipsam nemo veritatis.</p>
+        </div>
+
+            <div class="servicios">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Desarrollador web</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Frontend</li>
+                <li>Diseño</li>
+                <li>Maquetador</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugit assumenda mollitia corrupti alias aliquam fuga tempora eaque esse, deserunt neque culpa quidem fugiat magni atque modi ipsam nemo veritatis.</p>
+        </div>
+        </div>
+    </section>
+
+    <!--seccion habilidades-->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista">Html y Css</span></p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista">Javascript</span></p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="barra-progreso2"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista">React</span></p>
+                <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="react" class="barra-progreso3"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista">Git</span></p>
+                <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="git" class="barra-progreso4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--seccion portafolio-->
+            <section id="portafolio">
+                <h3 class="titulo-seccion">Mis Proyectos</h3>
+                <div class="fila">
+                    <div class="proyecto">
+                        <div class="overlay"></div>
+                        <img src="img/principe.png" alt="imagen">
+                        <div class="info">
+                            <h4>Descripcion del proyecto</h4>
+                            <p>Diseño web</p>
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <div class="overlay"></div>
+                        <img src="img/pruebas.png" alt="imagen">
+                        <div class="info">
+                            <h4>Descripcion del proyecto</h4>
+                            <p>Diseño web</p>
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <div class="overlay"></div>
+                        <img src="img/slacker.png" alt="imagen">
+                        <div class="info">
+                            <h4>Descripcion del proyecto</h4>
+                            <p>Diseño web</p>
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <div class="overlay"></div>
+                        <img src="img/tiendita.png" alt="imagen">
+                        <div class="info">
+                            <h4>Descripcion del proyecto</h4>
+                            <p>Diseño web</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--seccion contacto-->
+            <section id="contactos">
+                <h3 class="titulo-seccion">Contactanos Ahora</h3>
+                <div class="contenedor-form">
+                    <form action="">
+                        <div class="mitad">
+                            <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                            <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                        </div>
+                        <div class="fila">
+                            <input type="text" placeholder="tema..." class="input-full">
+                        </div>
+                        <div class="fila">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+                        </div>
+
+                        <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                    </form>
+                </div>
+            </section>
+
+            <!--seccion footer-->
+            <footer>
+                <p>Todos los derechos reservados - 2022</p>
+                <div>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </footer>
+
+            <script src="script.js"></script>
+        </body>
+    </html>
